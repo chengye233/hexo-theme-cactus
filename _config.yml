@@ -4,32 +4,34 @@
 
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
-# page within your website.
-projects_url: http://github.com/probberechts
+# page within your website. 取消了projects
+# projects_url: http://github.com/probberechts
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
 # Configure the navigation menu.
 # A pair 'Key: url' will result in a link to 'url' with the name 'Key' in the
 # navigation menu. Optionally, you can add translations for the 'Key' in
-# languages/*.yml
+# languages/*.yml 取消了projects
 nav:
   home: /
   about: /about/
   articles: /archives/
-  projects: http://github.com/probberechts
+  # projects: http://github.com/probberechts
+  tag: /tags/
+  category: /categories/
 
 
 # Links to your social media accounts.
 # The keys should correspond to Fontawesome icon names
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
-# only 'mail' is an exception.
+# only 'mail' is an exception. 取消了
 social_links:
-  github: http://github.com/probberechts/cactus-dark
-  twitter: /
-  facebook: /
-  linkedin: /
-  mail: mailto:name@email.com
+  # github: http://github.com/probberechts/cactus-dark
+  # twitter: /
+  # facebook: /
+  # linkedin: /
+  mail: hwxy233@outlook.com
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -62,7 +64,7 @@ post:
 # Customize the copyright years
 # Note: if start_year/end_year not provided, will use current year.
 copyright:
-  start_year: 2016
+  start_year: 2022
   end_year:
 
 ##############################################################################
@@ -107,7 +109,7 @@ favicon:
 
 # The color scheme that should be used to highlight codeblocks.
 # See source/css/_highlight for a list of all available color schemes.
-# highlight: rainbow
+highlight: rainbow
 
 # Set the color scheme.
 # Available color schemes are 'dark', 'light', 'classic' and 'white'.
