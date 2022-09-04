@@ -1,0 +1,34 @@
+<aside id="widget">
+    <!-- 在左下角创建takina -->
+    <div class="widget-left-bottom">
+        <!-- https://cdn.jsdelivr.net/npm/sakana-widget@2.3.0/lib/sakana.min.js -->
+        <!-- https://cdnjs.cloudflare.com/ajax/libs/sakana-widget/2.3.0/sakana.min.js -->
+        <div id="sakana-widget-left"></div>
+        <script>
+            function initSakanaWidgetLeft() {
+                new SakanaWidget().setCharacter('takina').mount('#sakana-widget-left');
+            }
+        </script>
+        <script
+                async
+                onload="initSakanaWidgetLeft()"
+                src="https://cdn.jsdelivr.net/npm/sakana-widget@2.3.0/lib/sakana.min.js"
+        ></script>
+    </div>
+    <!-- 在右下角创建chisato -->
+    <div class="widget-right-bottom">
+        <!-- https://cdn.jsdelivr.net/npm/sakana-widget@2.3.0/lib/sakana.min.js -->
+        <!-- https://cdnjs.cloudflare.com/ajax/libs/sakana-widget/2.3.0/sakana.min.js -->
+        <div id="sakana-widget-right"></div>
+        <script>
+            function initSakanaWidgetRight() {
+                new SakanaWidget().setCharacter('chisato').mount('#sakana-widget-right');
+            }
+        </script>
+        <script
+                async
+                onload="initSakanaWidgetRight()"
+                src="https://cdn.jsdelivr.net/npm/sakana-widget@2.3.0/lib/sakana.min.js"
+        ></script>
+    </div>
+</aside>
